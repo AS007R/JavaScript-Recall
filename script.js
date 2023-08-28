@@ -1,12 +1,16 @@
-let msg = document.querySelector('button');
-msg.addEventListener('click', getName);
+// let msg = document.querySelector('button');
+// msg.addEventListener('click', getName);
 
-let text = document.getElementById('text');
+// let text = document.getElementById('text');
 
 // function showMsg() {
 //     alert("Hello from Asad");
 // }
-function getName() {
-    let name = prompt('Enter your name: ')
-    text.textContent= 'Entered name is '+ name;
-}
+// function getName() {
+//     let name = prompt('Enter your name: ')
+//     text.textContent= 'Entered name is '+ name;
+// }
+
+
+// let x = 3 == '3.0';
+// console.log(x);
