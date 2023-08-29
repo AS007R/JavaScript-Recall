@@ -15,4 +15,27 @@
 // let x = 3 == '3.0';
 // console.log(x);
 
+let car = prompt("Kon si car chahiay? ")
 
+switch (car) {
+    case 'Carola':
+        console.log(`${car} 10k per day rent pay available hy`);
+        break;
+    case 'City':
+        console.log(`${car} 12k per day rent pay available hy`);
+        break;
+    case 'BMW':
+        console.log(`${car} 30k per day rent pay available hy`);
+        break;
+    case 'Alto':
+        console.log(`${car} 8k per day rent pay available hy`);
+        break;
+    case 'Mehran':
+        console.log(`${car} 7k per day rent pay available hy`);
+        break;
+    
+
+    default:
+        console.log(`${car} rent pay available nai hy koi or dekh len`);
+        break;
+}
